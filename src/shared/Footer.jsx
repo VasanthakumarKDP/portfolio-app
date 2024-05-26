@@ -10,7 +10,7 @@ const Footer = () => {
         {/* logo and description */}
         <div className="md:w-2/5 my-3">
           <h4 className="text-white font-bold text-2xl tracking-wide">
-            Murugan & Vasanth
+            MV Solutions
           </h4>
           <p className="mt-5 text-sm leading-7 text-[#eee]">
             Combining Creativity and Technical Expertise to Deliver Outstanding
@@ -50,7 +50,7 @@ const Footer = () => {
         <p className="md:my-10 py-10 md:py-0 text-sm leading-7 text-[#eee] text-center">
           © Copyright 2024. Made by{" "}
           <a href="" className="underline">
-            Murugan & Vasanth
+            MV Solutions
           </a>
         </p>
       </div>

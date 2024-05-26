@@ -24,30 +24,32 @@ const Home = () => {
           className="text-center md:w-1/2"
         >
           <h1 className="text-primary text-5xl font-extrabold tracking-wider mb-8">
-            Welcome to Murugan & Vasanth's Portfolio
+            Welcome to MV Solutions
           </h1>
           <TypeAnimation
             className="font-semibold text-transparent leading-10 bg-clip-text bg-gradient-to-r from-slate-800 to-red-600"
             sequence={[
               // Same substring at the start will only be typed once, initially
-              "Designing for the Future, One Website at a Time.",
-              1000,
-              "Designing for the Online Presence.",
-              1000,
-              "Designing for the Pixel Perfect Experiences.",
-              1000,
-              "We Create, You Conquer.",
-              1000,
+              "Committing to deliver projects within the agreed timelines.",
+              500,
+              "Innovating Web Solutions & Mobile Apps for Tomorrow.",
+              500,
+              "Turning Visions into Virtual Reality.",
+              500,
+              "Building strong digital footprints.",
+              500,
+              "Empowering Businesses through Design Excellence.",
+              500,
             ]}
             speed={50}
             style={{ fontSize: "2em" }}
             repeat={Infinity}
           />
           {/* hero info */}
-          <p className="text-light text-xl my-8">
-            Combining Creativity and Technical Expertise to Deliver Outstanding
-            Projects.We are skilled Mobile App Developers, Website Developers,
-            and provide 24/7 Services
+          <p className="text-light text-xl my-8 text-justify">
+            Blending Creativity with Technical Proficiency to Deliver
+            Exceptional Projects. We are adept Mobile App Developers, Website
+            Developers, and offer 24/7 Services.
           </p>
           <button className="btn py-4 px-16">PROJECTS</button>
         </motion.div>

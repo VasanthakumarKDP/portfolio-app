@@ -18,7 +18,7 @@ const Contact = () => {
       <Headline
         title={"CONTACT"}
         subtitle={
-          "Feel free to Contact me by submitting the form below and I will get back to you as soon as possible"
+          "Feel free to Contact us by submitting the form below and We will get back to you as soon as possible"
         }
       />
 
@@ -38,6 +38,14 @@ const Contact = () => {
             name="email"
             id="email"
             placeholder="Enter Your Email"
+            className="p-5"
+          />
+          <label htmlFor="email">Phone Number: </label>
+          <input
+            type="number"
+            name="number"
+            id="phonenumber"
+            placeholder="Enter Your Number"
             className="p-5"
           />
           <label htmlFor="message">Message: </label>

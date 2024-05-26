@@ -6,7 +6,7 @@ import profileImg from "../assets/VMlogo.jpg";
 const Header = () => {
   let Links = [
     { name: "Home", link: "home" },
-    { name: "About me", link: "about" },
+    { name: "About us", link: "about" },
     { name: "Projects", link: "projects" },
     { name: "Contact", link: "contact" },
   ];
@@ -19,7 +19,7 @@ const Header = () => {
         <div className="font-bold text-2xl tracking-wide cursor-pointer flex items-center gap-1">
           <img src={profileImg} alt="" className="md:w-12 md:h-12 w-10 h-10" />
           <span className="text-primary hover:text-secondary md:ml-3 ml-2">
-            Murugan & Vasanth
+            MV Solutions
           </span>
         </div>
         {/* Menu icon */}
