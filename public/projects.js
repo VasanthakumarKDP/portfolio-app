@@ -3,7 +3,8 @@ const projects = [
     id: 1,
     name: "Kavi College of Education - Website",
     description: "Kavi College of Education's website",
-    image: "/src/assets/KaviEducation.png",
+    image:
+      "https://raw.githubusercontent.com/VasanthakumarKDP/portfolio-app/main/KaviEducation.png",
     Url: "https://kavicollegeedu.in/index.php",
   },
   {
@@ -19,7 +20,8 @@ const projects = [
     name: "Ajitha Produrg - Website",
     description:
       "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
-    image: "/src/assets/AjithaProdrug.png",
+    image:
+      "https://raw.githubusercontent.com/VasanthakumarKDP/portfolio-app/main/AjithaProdrug.png",
     Url: "https://www.ajithaprodrug.com/",
   },
   //   {
