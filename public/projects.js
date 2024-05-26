@@ -12,7 +12,8 @@ const projects = [
     name: "Printing LT- Website",
     description:
       "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
-    image: "/src/assets/Printing.png",
+    image:
+      "https://raw.githubusercontent.com/VasanthakumarKDP/portfolio-app/main/Printing.png",
     Url: "https://printinglt.com/",
   },
   {
